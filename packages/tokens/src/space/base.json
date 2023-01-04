@@ -1,0 +1,13 @@
+{
+  "space": {
+    "none": { "value": "0" },
+    "xxxs": { "value": "2px" },
+    "xxs": { "value": "4px" },
+    "xs": { "value": "8px" },
+    "sm": { "value": "12px" },
+    "md": { "value": "16px" },
+    "lg": { "value": "24px" },
+    "xl": { "value": "32px" },
+    "xxl": { "value": "48px" }
+  }
+}

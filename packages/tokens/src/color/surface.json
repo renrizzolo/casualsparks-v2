@@ -1,0 +1,18 @@
+{
+  "color": {
+    "base": {
+      "surface": {
+        "0": { "value": "{color.base.white}" },
+        "1": { "value": "{color.base.muted.50}" },
+        "2": { "value": "{color.base.muted.100}" }
+      }
+    },
+    "dark": {
+      "surface": {
+        "0": { "value": "{color.dark.black}" },
+        "1": { "value": "{color.dark.muted.50}" },
+        "2": { "value": "{color.dark.muted.100}" }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tokens",
+  "version": "0.0.0",
+  "exports": {
+    "./*": "./*.js",
+    "./styles/tokens.css": "./dist/styles/tokens.css"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*",
+    "dist": "rimraf dist/* && style-dictionary build && tsc && npm run format",
+    "format": "prettier \"dist/**/*.{ts,js}\" --write"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.0",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  }
+}

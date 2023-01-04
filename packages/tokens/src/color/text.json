@@ -1,0 +1,18 @@
+{
+  "color": {
+    "base": {
+      "text": {
+        "base": { "value": "{color.base.contrast}" },
+        "label": { "value": "{color.base.muted.800}" },
+        "heading": { "value": "{color.base.muted.700}" }
+      }
+    },
+    "dark": {
+      "text": {
+        "base": { "value": "{color.dark.contrast}" },
+        "label": { "value": "{color.dark.muted.500}" },
+        "heading": { "value": "{color.dark.muted.700}" }
+      }
+    }
+  }
+}

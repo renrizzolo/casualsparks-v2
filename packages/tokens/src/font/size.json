@@ -1,0 +1,36 @@
+{
+  "font": {
+    "size": {
+      "root": {
+        "value": "16px"
+      },
+      "base": {
+        "value": "1rem"
+      },
+      "small": {
+        "value": "0.915rem"
+      },
+      "medium": {
+        "value": "1.15rem"
+      },
+      "label": {
+        "value": "0.85rem"
+      },
+      "h1": {
+        "value": "2.15rem"
+      },
+      "h2": {
+        "value": "1.85rem"
+      },
+      "h3": {
+        "value": "1.65rem"
+      },
+      "h4": {
+        "value": "1.35rem"
+      },
+      "h5": {
+        "value": "1.05rem"
+      }
+    }
+  }
+}
