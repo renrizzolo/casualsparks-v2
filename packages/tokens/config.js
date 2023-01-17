@@ -3,6 +3,9 @@ const {
   minifyDictionary,
   fileHeader,
 } = require("style-dictionary/lib/common/formatHelpers");
+const t = require("style-dictionary/lib/common/transforms");
+const tg = require("style-dictionary/lib/common/transformGroups");
+
 const formattedVariables = require("style-dictionary/lib/common/formatHelpers/formattedVariables");
 const tokens = require("./src");
 const distFolderName = "dist";
@@ -13,7 +16,7 @@ module.exports = {
     // the main js exports come from these transforms.
     // Contain 'direct' values e.g color.blue.base is the hex string
     js: {
-      transformGroup: "web",
+      transformGroup: "cs-web",
       buildPath: `${distFolderName}/`,
       // map through each src/tokens/*.json file
       // and create a transformed js file for it
@@ -96,6 +99,18 @@ module.exports = {
     },
   },
 };
+
+StyleDictionary.registerTransform({
+  ...t["size/pxToRem"],
+  name: `space/pxToRem`,
+  matcher: function (token) {
+    return token.attributes.category === "space";
+  },
+});
+StyleDictionary.registerTransformGroup({
+  name: "cs-web",
+  transforms: [...tg.web, "space/pxToRem"],
+});
 
 // same as json/nested but as ts so we can get type inference
 StyleDictionary.registerFormat({

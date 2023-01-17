@@ -1,8 +1,11 @@
 {
   "font": {
     "family": {
-      "sans": {
-        "value": "\"basier_square\", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif"
+      "body": {
+        "value": "\"basier\", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif"
+      },
+      "heading": {
+        "value": "\"archia\", Roboto -apple-system, BlinkMacSystemFont, 'Helvetica Neue', HelveticaNeue, Helvetica, Arial, sans-serif"
       }
     }
   }

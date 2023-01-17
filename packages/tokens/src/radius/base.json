@@ -1,9 +1,9 @@
 {
   "radius": {
-    "none": { "value": "0" },
     "xs": { "value": "{space.xxs}" },
     "sm": { "value": "{space.xs}" },
     "md": { "value": "{space.sm}" },
-    "round": { "value": "999px" }
+    "round": { "value": "999px" },
+    "none": { "value": "0" }
   }
 }
