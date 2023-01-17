@@ -1,5 +1,12 @@
 {
   "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "jsx": "preserve",
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": true
+  },
   "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "exclude": ["dist", "build", "types", "node_modules"]
 }
