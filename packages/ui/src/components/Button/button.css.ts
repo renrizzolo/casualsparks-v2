@@ -13,6 +13,7 @@ import {
 const { color } = vars;
 
 const buttonDefault = style({
+  textDecoration: "none",
   display: "inline-flex",
   userSelect: "none",
   transition: "all 200ms ease",

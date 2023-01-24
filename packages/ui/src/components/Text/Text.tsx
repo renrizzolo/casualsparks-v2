@@ -2,9 +2,8 @@ import * as React from "react";
 import clsx, { type ClassValue } from "clsx";
 import { textDefault } from "./text.css";
 import Box from "../Box";
-import { BoxProps, PolymorphicComponentProps } from "../Box/Box";
-import { Sprinkles, sprinkles } from "../../styles/sprinkles.css";
-import { vars } from "../../styles/theme.css";
+import { PolymorphicComponentProps } from "../Box/Box";
+import { Sprinkles } from "../../styles/sprinkles.css";
 
 export type TextProps<C extends React.ElementType = "p"> =
   PolymorphicComponentProps<

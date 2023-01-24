@@ -1,6 +1,7 @@
 {
   "name": "ui",
   "version": "0.0.0",
+  "module": "src/index.js",
   "main": "./dist/ui.es.js",
   "types": "./types",
   "type": "module",
@@ -13,6 +14,7 @@
     "dev": "npm run storybook",
     "dev-vite": "vite --port=3002",
     "build": "npm run types && vite build",
+    "watch": "vite build --watch",
     "preview": "vite preview",
     "lint": "eslint *.ts*",
     "types": "tsc",
